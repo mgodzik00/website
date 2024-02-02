@@ -11,18 +11,17 @@
     <base href="https://www.bluegrassequus.com">
     <style>
         header {
-            background-color: black;
+            background-color: #0ff5c3;
             margin: auto;
             width: 100%;
-            top: 0;
-            left: 0;
+            
         }
         
         .header-nav {
             display: flex;
             flex-direction: row;
             justify-content: space-between; 
-
+            ;
             border: 3px solid blueviolet;
             border: 100%;
             color: blueviolet;
@@ -35,9 +34,20 @@
             justify-content: space-between;
         }
 
+        h2 {
+            text-align: center;
+            color: (111, 21, 146);
+
+        }
+
         .main-text-1 {
             margin: auto;
             margin-top: 0;
+        }
+
+        .main-heading-1, .main-heading-2, .footer-list-header {
+            color: rgb(111, 21, 146);
+            text-shadow: 2px 2px #9a7dd8;
         }
         
         .main-image-1 {
@@ -58,7 +68,7 @@
             margin: auto;
             border-width: 21px;
             border-style: groove;
-            border-color: rgba(28, 110, 164, 0.7);
+            border-color: rgb(111, 21, 146);
         }
         
         .footer-list-header {
@@ -79,7 +89,7 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #FADB92;
+            background-color: #0ff5c3;
             margin: auto;
             line-height: 0.5;
         }
@@ -93,7 +103,7 @@
         }
         
         a:hover {
-            color: blue;
+            color: rgb(111, 21, 146);
         }
         
         a {
@@ -127,7 +137,9 @@
         <article class="main-col-1">
             
                 <div class="main-text-1">
-                <h2>Interest in horses</h2>
+                    <div class="main-heading-1">
+                        <h2>Interest in Horses</h2>
+                    </div>
                 </div>
             <div class="main-image-1">
                 <img src="https://github.com/mgodzik00/website/blob/main/images/horse-wearing-halter.png?raw=true" alt="horse-wearing-halter-img">
@@ -138,9 +150,12 @@
         </article>
         <article class="main-col-2">
             <div class="main-image-2">
-                <img src="https://github.com/mgodzik00/website/blob/main/images/black%20horse%20with%20gold.jpeg?raw=true" alt="horse-with-gold-img"></div>
+                <img src="https://github.com/mgodzik00/website/blob/main/images/black%20horse%20with%20gold.jpeg?raw=true" alt="horse-with-gold-img">
+            </div>
             <div class="main-text-2">
-                <h2>Education and Training</h2>
+                <div class="main-heading-2">
+                    <h2>Education and Training</h2>
+                </div>
             </div>
         </article>
     </main>
